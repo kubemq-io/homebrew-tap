@@ -7,11 +7,11 @@ class Kubemqctl < Formula
 
   if OS.mac?
     url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.0/kubemqctl_2.0.0_darwin_amd64.tar.gz"
-    sha256 "9995dc423cfe2e2d60ce70be9b6ecdaa40ed8b2712481bf696a8f83915e3a437"
+    sha256 "26569d90f792ecd2a0bc9891b818c922b09d8ba5dd6337a0db77c882a3ded175"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.0/kubemqctl_2.0.0_linux_amd64.tar.gz"
-      sha256 "e0a730ccc8993f05b696b5b88e94844c2a07476d49f75b8732625c2956a94afb"
+      sha256 "c6cf20d56e6387b105cf9e33d37f24f35249c32ad67d9d5491496be2566947e5"
     end
   end
 
