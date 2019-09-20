@@ -2,16 +2,16 @@
 class Kubemqctl < Formula
   desc ""
   homepage ""
-  version "2.0.0"
+  version "2.0.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.0/kubemqctl_2.0.0_darwin_amd64.tar.gz"
-    sha256 "26569d90f792ecd2a0bc9891b818c922b09d8ba5dd6337a0db77c882a3ded175"
+    url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.1/kubemqctl_2.0.1_darwin_amd64.tar.gz"
+    sha256 "8670eb729f23c8896d5299ee42cce01175e77ca1d4f717e2dd3636dde6102f3e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.0/kubemqctl_2.0.0_linux_amd64.tar.gz"
-      sha256 "c6cf20d56e6387b105cf9e33d37f24f35249c32ad67d9d5491496be2566947e5"
+      url "https://github.com/kubemq-io/kubemqctl/releases/download/v2.0.1/kubemqctl_2.0.1_linux_amd64.tar.gz"
+      sha256 "7705f746485c78504442039453782a788bb890d0578ce4d462f61a53df72b907"
     end
   end
 
